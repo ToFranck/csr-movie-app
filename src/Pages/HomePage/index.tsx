@@ -1,16 +1,18 @@
-import React from 'react'
+import React from "react";
+import SearchBar from "../../Components/SearchBar";
+import { StyledEngineProvider, Table } from "@mui/material";
 
 export default function HomePage() {
   return (
-    <div>
-        <p>Home page works!</p>
+    <>
+      {/* <StyledEngineProvider injectFirst>
+        
+        <SearchBar />
+        <Button />
+      </StyledEngineProvider>
 
-        <input type="text"
-            placeholder='Titre du film...'
-        />
-        
-        
-        <button>Oui</button>
-    </div>
-  )
+    <Table></Table> */}
+      <p>Home page works!</p>
+    </>
+  );
 }
